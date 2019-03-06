@@ -12,9 +12,11 @@ void main() => runApp(MyApp());
        child: MaterialApp(
          title: '百姓生活+',
          theme: ThemeData(
+
            //主题颜色
            primarySwatch: Colors.pink
          ),
+         debugShowCheckedModeBanner: false,
          home: IndexPage(),
        ),
      );
